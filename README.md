@@ -9,7 +9,7 @@ wow amaze() {
     does(i has buzz)
       say("buzz");
 
-    does(nofizzbuzz(i))
+    nofizzbuzz(i)
       plz;
 
     nextplz;
