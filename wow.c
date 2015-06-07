@@ -11,7 +11,7 @@
 #define has %
 #define plz (say("%d", i));
 #define bye return 0
-#define nofizzbuzz(i) (!(i has fizz) || !(i has buzz))
+#define nofizzbuzz(i) if (!(!(i has fizz) || !(i has buzz)))
 
 wow amaze() {
   wow i is 0;
@@ -23,7 +23,7 @@ wow amaze() {
     does(i has buzz)
       say("buzz");
 
-    does(nofizzbuzz(i))
+    nofizzbuzz(i)
       plz;
 
     nextplz;
