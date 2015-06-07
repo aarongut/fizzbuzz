@@ -4,15 +4,14 @@
 #define does(x) if(!(x))
 #define fizz 3
 #define buzz 5
-#define nextplz printf("\n");
+#define nextplz say("\n");
 #define amaze main
-#define no 0
 #define is =
 #define many(x) while((x++) < 100)
 #define has %
-#define plz (printf("%d", i));
+#define plz (say("%d", i));
 #define bye return 0
-#define nofizzbuzz(i) (!(i % 3) || !(i % 5))
+#define nofizzbuzz(i) (!(i has fizz) || !(i has buzz))
 
 wow amaze() {
   wow i is 0;
